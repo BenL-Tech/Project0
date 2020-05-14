@@ -73,7 +73,8 @@ nav a{
 	position: relative;
 	top: 450px;
 	background: #ddd;
-	height: 1500px;
+	overflow: auto;
+	height: 100vh;
 }
 
 .content-area h2{
@@ -120,47 +121,50 @@ nav a{
 	font-family: Righteous;
 	color: #fff;
 	letter-spacing: 3px;
+	text-align: center;
 }
 
-.insidefooter .third-footer{
+.insidefooter #third-footer{
 	width: calc(21.6666666667% - 20px);
 	margin-right: 10px;
 	float: left;
 	height: 100%;
 }
 
-.insidefooter .third-footer:last-child{
+.insidefooter #third-footer:last-child{
 	margin-right: 0;
 }
 
-.insidefooter .third-footer h1{
+.insidefooter #third-footer h1{
 	font-family: Oswald;
 	font-size: 22px;
 	color: white;
 	display: block;
 	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
-.insidefooter .third-footer a{
+.insidefooter #third-footer a{
 	font-family: Oswald;
 	font-size: 18px;
 	font-weight: 200;
 	color: white;
 	display: block;
 	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding-bottom: 5px;
+	text-align: left;
 }
 
+
 .footer {
-	display: block;
-	position: fixed;
-	left: 0;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 	background-color: #3b3d40;
 	color: #3b3d40;
 	text-align: center;
-	box-sizing: border-box;
+	min-height: 150px;
+	overflow: auto;
+	display: flex;
 }
