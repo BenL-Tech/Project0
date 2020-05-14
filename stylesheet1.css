@@ -88,7 +88,7 @@ nav a{
 	font-family: Righteous;
 	line-height: 30px;
 }
-
+/*
 .footer{
 	width: 100vw;
 	display: block;
@@ -99,7 +99,7 @@ nav a{
 	position: absolute; 
 	bottom: 0;
 }
-
+*/
 .insidefooter{
 	display: block;
 	margin: 0 auto;
@@ -151,4 +151,14 @@ nav a{
 	width: 100%;
 	margin-bottom: 20px;
 	padding-bottom: 5px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #3b3d40;
+	color: #3b3d40;
+	text-align: center;
 }
