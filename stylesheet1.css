@@ -154,6 +154,7 @@ nav a{
 }
 
 .footer {
+	display: block;
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -161,5 +162,5 @@ nav a{
 	background-color: #3b3d40;
 	color: #3b3d40;
 	text-align: center;
-	height: 300px;
+	box-sizing: border-box;
 }
